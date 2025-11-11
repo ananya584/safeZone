@@ -1,0 +1,22 @@
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Report from "./pages/Report";
+
+function App(){
+  return(
+    <Router>
+      <nav style={{textAlign : "center", padding : "10px"}}>
+        <a href="/">Home </a>
+        <a href="/report">Report </a>
+      </nav>
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/report" element={<Report />}/>
+      </Routes>
+    </Router>
+  );
+}
+
+export default App;

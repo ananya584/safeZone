@@ -1,0 +1,29 @@
+{
+  "name": "safezone-server",
+  "version": "1.0.0",
+  "description": "Backend for SafeZone - Crowd-Sourced Public Safety Tracker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "safezone",
+    "backend",
+    "public-safety",
+    "express",
+    "mongoose"
+  ],
+  "author": "Ananya Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.4",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
